@@ -6,7 +6,8 @@ namespace cs
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            AsyncDoneWrong.revealWrongAsync();
+            Console.ReadKey();
         }
     }
 }
