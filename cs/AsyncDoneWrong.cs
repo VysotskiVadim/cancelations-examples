@@ -21,8 +21,10 @@ namespace cs {
 
         public async void initialize() {
             view = new ConsoleView();
+            view.ShowLoading();
             var data = await FakeTaskManager.fetchDataAsync();
-            view.showData(data);
+            view.HideLoading();
+            view.ShowData(data);
         }
 
         public void destroy() {
