@@ -6,7 +6,7 @@ namespace cs
     {
         static void Main(string[] args)
         {
-            AsyncDoneWrong.revealWrongAsync();
+            AsyncDoneRight.doAsyncRight();
             Console.ReadKey();
         }
     }
